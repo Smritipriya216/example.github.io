@@ -1,0 +1,64 @@
+.side {
+  list-style-type: square;
+  font-size: 23px;
+  padding: auto;
+}
+
+.inner {
+  font-size: large;
+  list-style-type: square;
+}
+
+.box,
+.box1,
+.box2 {
+  border: 2px solid greenyellow;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+.example {
+  margin-top: 0;
+}
+
+.h2 {
+  margin-bottom: 0;
+}
+
+.tab {
+  padding-left: 2rem;
+}
+
+.tab2 {
+  padding-left: 4rem;
+}
+
+.tab3 {
+  padding-left: 6rem;
+}
+
+.tab,
+.tab2,
+.tab3 {
+  margin: 0 0 0.5rem 0;
+}
+div p {
+  margin-top: 0.8rem;
+  font-size: large;
+  padding-left: 0.2rem;
+}
+
+.overloading {
+  margin: 2rem 0;
+  background-color: honeydew;
+  border-left: 5px solid green;
+  padding: 20px 0;
+}
+
+.class-name {
+  font-weight: bold;
+  margin: 0 0 12px 0;
+}
